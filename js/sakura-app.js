@@ -244,7 +244,7 @@ mashiro_global.font_control = new function () {
 }()
 mashiro_global.font_control.ini()
 
-function code_highlight_style () {
+/*function code_highlight_style () {
   function gen_top_bar (i) {
     var attributes = {
       'autocomplete': 'off',
@@ -289,7 +289,7 @@ function copy_code_block () {
     $(this).after('<a class="copy-code" href="javascript:" data-clipboard-target="#hljs-' + i + '" title="拷贝代码"><i class="fa fa-clipboard" aria-hidden="true"></i></a>')
   })
   var clipboard = new ClipboardJS('.copy-code')
-}
+}*/
 
 function attach_image () {
   $('#upload-img-file').change(function () {
