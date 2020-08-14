@@ -243,7 +243,7 @@ mashiro_global.font_control = new function () {
   }
 }()
 mashiro_global.font_control.ini()
-/*function code_highlight_style () {
+function code_highlight_style () {
   function gen_top_bar (i) {
     var attributes = {
       'autocomplete': 'off',
@@ -280,7 +280,7 @@ mashiro_global.font_control.ini()
 }
 try {
   code_highlight_style()
-} catch (e) {}*/
+} catch (e) {}
 
 function copy_code_block () {
   $('pre code').each(function (i, block) {
