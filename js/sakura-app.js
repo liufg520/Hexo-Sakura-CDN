@@ -243,7 +243,7 @@ mashiro_global.font_control = new function () {
   }
 }()
 mashiro_global.font_control.ini()
-function code_highlight_style () {
+/*function code_highlight_style () {
   function gen_top_bar (i) {
     var attributes = {
       'autocomplete': 'off',
@@ -277,7 +277,7 @@ function code_highlight_style () {
     $('html').toggleClass('code-block-fullscreen-html-scroll')
   })
   hljs.initLineNumbersOnLoad()
-}
+}*/
 try {
   code_highlight_style()
 } catch (e) {}
