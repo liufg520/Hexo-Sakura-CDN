@@ -277,7 +277,7 @@ mashiro_global.font_control.ini()
     $('html').toggleClass('code-block-fullscreen-html-scroll')
   })
   hljs.initLineNumbersOnLoad()
-}*/
+}
 try {
   code_highlight_style()
 } catch (e) {}
@@ -288,7 +288,7 @@ function copy_code_block () {
     $(this).after('<a class="copy-code" href="javascript:" data-clipboard-target="#hljs-' + i + '" title="拷贝代码"><i class="fa fa-clipboard" aria-hidden="true"></i></a>')
   })
   var clipboard = new ClipboardJS('.copy-code')
-}
+}*/
 
 function attach_image () {
   $('#upload-img-file').change(function () {
