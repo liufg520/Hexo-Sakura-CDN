@@ -6736,7 +6736,9 @@ progress {
     vertical-align:middle
 }
 .art .art-content #archives a {
-    color:#000
+    color:rgb(0 0 0 / 73%);
+    box-shadow:0 0 5px black;
+    text-shadow:0 0 1px black
 }
 .art .art-content #archives a:hover {
     color:orange
@@ -6751,9 +6753,10 @@ progress {
     padding:0;
     border-radius:0;
     margin:0;
-    color:#000;
+    color:rgb(160 45 227 / 50%);
     background:none;
-    font-weight:normal
+    font-weight:normal;
+    text-shadow:0 0 1px black
 }
 .art .art-content #archives a {
     font-weight:normal
@@ -6784,7 +6787,7 @@ progress {
 .art-content #archives .al_mon_list .al_mon:before {
     position:absolute;
     left:113px;
-    background:#fff;
+    background:#fe9600e8;
     height:18px;
     width:18px;
     border-radius:9px;
@@ -6811,7 +6814,7 @@ progress {
     max-height:100%;
     height:100%;
     width:4px;
-    background:#6ecaf5;
+    background:rgba(0,0,0,.5);
     position:absolute;
     left:120px;
     content:"";
@@ -6822,13 +6825,13 @@ progress {
     box-shadow:1px 1px 1px #bbb
 }
 .art-content #archives .al_mon_list .al_mon:after,.art .art-content .al_mon_list .al_post_list>li:after {
-    background:#0bf
+    background:rgb(143 27 27 / 50%)
 }
 .toc-container {
     z-index:98;
     width:200px;
     height:100%;
-    background-color:rgba(255,255,255,0);
+    background:#1c1b788c;
     transform:translateX(0);
     right:calc((100% - 950px - 250px)/2);
     position:absolute !important;
