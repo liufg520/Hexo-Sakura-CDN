@@ -1920,7 +1920,8 @@ i.iconfont.hotpost {
 }@media(max-width:860px) {
     .post-list-thumb {
     margin:0;
-    height:auto
+    height:auto;
+    margin:12px 0 12px
 }
 }.post-list-thumb i {
     margin-right:5px;
