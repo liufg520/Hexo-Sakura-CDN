@@ -2074,7 +2074,8 @@ i.iconfont.hotpost {
 }.post-list-show {
     animation:post-list-show .5s;
     -webkit-animation:post-list-show .5s;
-    opacity:1
+    opacity:1;
+    box-shadow:0 0 12px #1e0202
 }
 @keyframes post-list-show {
     0% {
