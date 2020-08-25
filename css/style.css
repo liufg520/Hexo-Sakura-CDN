@@ -1921,7 +1921,9 @@ i.iconfont.hotpost {
     .post-list-thumb {
     margin:0;
     height:auto;
-    margin:12px 0 12px
+    margin:12px 0 12px;
+    border-radius:1px;
+    box-shadow:0 0 6px black
 }
 }.post-list-thumb i {
     margin-right:5px;
