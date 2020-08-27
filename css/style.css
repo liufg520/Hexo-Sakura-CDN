@@ -39,7 +39,7 @@ pre[class*="language-"] {
 
 
 pre {
-    padding: 1.5rem !important;
+    /*padding: 1.5rem !important;*/
     margin: 1rem 0 !important;
     background: #272822;
     overflow: auto;
@@ -836,8 +836,8 @@ input:-webkit-autofill {
     -webkit-box-shadow:0 0 0 1000px white inset
 }
 ::selection {
-    background:#444;
-    color:#fff
+    background:rgba(0,0,0,.1);
+    color:rgb(0 0 0)
 }
 ::-moz-selection {
     background:#444;
@@ -978,7 +978,7 @@ td,th {
     padding:0
 }
 body,button,input,select,textarea {
-    color:#f0f0f0b8;
+    color:#181717;
     font-size:15px;
     line-height:1.5
 }
@@ -7433,7 +7433,7 @@ to {
 }
 .highlight-wrap {
     position: relative;
-    background:#21252b;
+    background:#d7191a61;
     border-radius:5px;
     font:15px/22px "Microsoft YaHei","Arial",Sans-Serif;
     line-height:1.6;
@@ -7442,8 +7442,8 @@ to {
     overflow:auto;
     text-shadow:none;
     color:#000;
-    padding-top:30px;
-    box-shadow:0 10px 30px 0 rgba(0,0,0,.4)
+    /*padding-top:30px;*/
+    box-shadow:0 0 10px black
 }
 .highlight .line span::-moz-selection,.line::-moz-selection {
     background:#fff;
@@ -7469,7 +7469,7 @@ to {
     background-color:#21252b !important
 }
 .highlight-wrap code {
-    background:#1d1f21;
+    background:#f0f0f0de;
     color:#fff;
     word-break:break-word;
     font-family:'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
@@ -7504,7 +7504,7 @@ to {
     pointer-events:none
 }
 .hljs {
-    display:block;
+    /*display:block;*/
     overflow-x:auto;
     padding:.5em;
     color:#abb2bf;
@@ -7516,25 +7516,25 @@ to {
     font-style:italic
 }
 .hljs-doctag,.hljs-formula,.hljs-keyword {
-    color:#c678dd
+    color:rgb(0 0 0)
 }
 .hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst {
-    color:#e06c75
+    color:rgb(0 0 0)
 }
 .hljs-literal {
     color:#56b6c2
 }
 .hljs-addition,.hljs-attribute,.hljs-meta-string,.hljs-regexp,.hljs-string {
-    color:#98c379
+    color:rgb(0 0 0)
 }
 .hljs-built_in,.hljs-class .hljs-title {
     color:#e6c07b
 }
 .hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable {
-    color:#d19a66
+    color:rgb(0 0 0)
 }
 .hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title {
-    color:#61aeee
+    color:rgb(0 0 0)
 }
 .hljs-emphasis {
     font-style:italic
@@ -7936,7 +7936,7 @@ td.hljs-ln-numbers {
     user-select: none;
     text-align: center;
     color: #888f96;
-    background: #1d1f21;
+    /*background: #eee;*/
     font-family: 'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
     vertical-align: top;
     left: 0;
