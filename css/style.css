@@ -7469,10 +7469,10 @@ to {
     background-color:#21252b !important
 }
 .highlight-wrap code {
-    background:#f0f0f0de;
+    /*background:#f0f0f0de;*/
     color:#fff;
     word-break:break-word;
-    font-family:'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
+    font-family:mengna,'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
     padding:2px;
     text-shadow:none;
     border-radius:0 0 5px 5px;
@@ -7952,7 +7952,7 @@ td.hljs-ln-numbers {
 .entry-content * {
     box-sizing: inherit;
 }
-.entry-content pre.highlight-wrap .copy-code {
+/*.entry-content pre.highlight-wrap .copy-code {
     color: #fff;
     position: absolute;
     float: right;
@@ -7962,7 +7962,7 @@ td.hljs-ln-numbers {
     padding-right: 2px;
     z-index: 2;
     font-size: 16px;
-}
+}*/
 .toc {
     width: 200px;
     height: auto;
