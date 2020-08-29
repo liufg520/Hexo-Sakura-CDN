@@ -58,14 +58,14 @@ pre::after {
     content: " ";
     position: absolute;
     border-radius: 50%;
-    background: #ff5f56;
+    /*background: #ff5f56;*/
     width: 12px;
     height: 12px;
     top: 0;
     left: 12px;
     margin-top: 12px;
-    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
-    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+   /* -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;*/
 }
 
 code {
@@ -7433,7 +7433,7 @@ to {
 }*/
 .highlight-wrap {
     position: relative;
-    background:#d7191a61;
+    background:hsla(0,0%,100%,0);
     border-radius:5px;
     font:15px/22px "Microsoft YaHei","Arial",Sans-Serif;
     line-height:1.6;
@@ -7522,13 +7522,13 @@ to {
     color:rgb(0 0 0)
 }
 .hljs-literal {
-    color:#56b6c2
+    color:rgb(0 0 0)
 }
 .hljs-addition,.hljs-attribute,.hljs-meta-string,.hljs-regexp,.hljs-string {
     color:rgb(0 0 0)
 }
 .hljs-built_in,.hljs-class .hljs-title {
-    color:#e6c07b
+    color:rgb(0 0 0)
 }
 .hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable {
     color:rgb(0 0 0)
