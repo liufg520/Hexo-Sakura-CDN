@@ -243,7 +243,7 @@ mashiro_global.font_control = new function () {
   }
 }()
 mashiro_global.font_control.ini()
-function code_highlight_style () {
+/*function code_highlight_style () {
   function gen_top_bar (i) {
     var attributes = {
       'autocomplete': 'off',
@@ -254,11 +254,11 @@ function code_highlight_style () {
       'design': 'by hojun'
     }
     var ele_name = $('pre:eq(' + i + ')')[0].children[0].className
-    /*var lang = ele_name.substr(0, ele_name.indexOf(' ')).replace('language-', '')
+    var lang = ele_name.substr(0, ele_name.indexOf(' ')).replace('language-', '')
     if (lang.toLowerCase() == 'hljs') var lang = 'text'
     if (lang.toLowerCase() == 'js') var lang = 'javascript'
     if (lang.toLowerCase() == 'md') var lang = 'markdown'
-    if (lang.toLowerCase() == 'py') var lang = 'python'*/
+    if (lang.toLowerCase() == 'py') var lang = 'python'
     $('pre:eq(' + i + ')').addClass('highlight-wrap')
     for (var t in attributes) {
       $('pre:eq(' + i + ')').attr(t, attributes[t])
@@ -280,7 +280,7 @@ function code_highlight_style () {
 }
 try {
   code_highlight_style()
-} catch (e) {}
+} catch (e) {}*/
 
 function copy_code_block () {
   $('pre code').each(function (i, block) {
