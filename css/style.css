@@ -58,14 +58,14 @@ pre::after {
     content: " ";
     position: absolute;
     border-radius: 50%;
-    /*background: #ff5f56;*/
+    background: #ff5f56;
     width: 12px;
     height: 12px;
     top: 0;
     left: 12px;
     margin-top: 12px;
-   /* -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
-    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;*/
+    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
 }
 
 code {
@@ -7470,7 +7470,7 @@ to {
 }
 .highlight-wrap code {
     /*background:#f0f0f0de;*/
-    color:#fff;
+    color:rgb(0 0 0);
     word-break:break-word;
     font-family:mengna,'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
     padding:2px;
@@ -7937,7 +7937,7 @@ td.hljs-ln-numbers {
     text-align: center;
     color: #888f96;
     /*background: #eee;*/
-    font-family: 'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
+    font-family: mengna,'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
     vertical-align: top;
     left: 0;
     width: 30px;
