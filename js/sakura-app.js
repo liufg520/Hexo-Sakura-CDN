@@ -290,7 +290,7 @@ function copy_code_block () {
   var clipboard = new ClipboardJS('.copy-code')
 }
 
-// 代码块功能依赖
+/*// 代码块功能依赖
 $(function () {
   $('pre').wrap('<div class="code-area" style="position: relative"></div>');
 });
@@ -317,7 +317,7 @@ $(function () {
       $(this).parent().addClass('code-closed');
     }
   });
-});
+});*/
 
 function attach_image () {
   $('#upload-img-file').change(function () {
