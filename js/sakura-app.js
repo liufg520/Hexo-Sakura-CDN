@@ -290,6 +290,35 @@ function copy_code_block () {
   var clipboard = new ClipboardJS('.copy-code')
 }
 
+// 代码块功能依赖
+$(function () {
+  $('pre').wrap('<div class="code-area" style="position: relative"></div>');
+});
+// 代码块一键复制
+$(function () {
+  var $copyIcon = $('<i class="fa fa-copy code_copy" title="复制代码" aria-hidden="true"></i>');
+  $('.code-area').prepend($copyIcon);
+new ClipboardJS('.fa-copy', {
+  target: function (trigger) {
+      return trigger.nextElementSibling;
+  }
+});
+});
+// 代码块收缩
+$(function () {
+  var $code_expand = $('<i class="fa fa-chevron-down code-expand" title="折叠代码" aria-hidden="true"></i>');
+  $('.code-area').prepend($code_expand);
+  $('.code-expand').on('click', function () {
+    if ($(this).parent().hasClass('code-closed')) {
+      $(this).siblings('pre').find('code').show();
+      $(this).parent().removeClass('code-closed');
+    } else {
+      $(this).siblings('pre').find('code').hide();
+      $(this).parent().addClass('code-closed');
+    }
+  });
+});
+
 function attach_image () {
   $('#upload-img-file').change(function () {
     if (this.files.length > 10) {
