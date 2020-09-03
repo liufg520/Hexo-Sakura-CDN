@@ -7479,17 +7479,17 @@ to {
     cursor:url(https://cdn.jsdelivr.net/gh/liufg520/Hexo-Sakura-CDN/img/cursor/texto.cur),auto
 }
 .highlight-wrap code[data-rel]:before {
-    color:#fff;
-    content:attr(data-rel);
+    color:rgb(0 0 0 / 42%);
+    /*content:attr(data-rel);*/
     height:38px;
     line-height:38px;
-    /*background:#21252b;*/
+    background:#f5f5f500;
     font-size:16px;
     position:absolute;
     margin-top:-35px;
     left:0;
     width:100%;
-    font-family:'Ubuntu',sans-serif;
+    font-family:mengna,'Ubuntu',sans-serif;
     font-weight:bold;
     padding:0 80px;
     text-indent:15px;
@@ -7504,11 +7504,11 @@ to {
     pointer-events:none
 }
 .hljs {
-    /*display:block;*/
+    display:block;
     overflow-x:auto;
     padding:.5em;
     color:#abb2bf;
-    background:rgba(254,250,199,.5);
+    background:#f5f5f500;
     border-radius:10px
 }
 .hljs-comment,.hljs-quote {
