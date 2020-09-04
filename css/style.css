@@ -7504,7 +7504,7 @@ to {
     pointer-events:none
 }
 .hljs {
-    display:block;
+    /*display:block;*/
     overflow-x:auto;
     padding:.5em;
     color:#abb2bf;
