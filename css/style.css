@@ -7469,7 +7469,7 @@ to {
     background-color:#f5f5f500 !important
 }
 .highlight-wrap code {
-    background:#f5f5f500;
+    background:rgb(0 0 0 / 0%);
     color:rgb(0 0 0);
     word-break:break-word;
     font-family:mengna,'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
